@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #616060, #2b2b2b);
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+#contadorLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    margin-bottom: 20px;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.btn{
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #2ba7cc;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn:hover{
+    background-color: #16487a;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
